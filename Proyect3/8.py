@@ -41,6 +41,7 @@ while True:
 
     # Limpiar la superficie con un color de fondo para borrar los círculos y texto anteriores
     background_color = (0, 0, 0)  # Puedes ajustar el color de fondo según tus preferencias
+
     pygame_surface.fill(background_color)
 
     circle_positions = [(np.random.randint(0, viewport[0]), np.random.randint(0, viewport[1])) for _ in range(num_circles)]
